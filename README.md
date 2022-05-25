@@ -1,4 +1,4 @@
-# html-aula06 - Ejercicio práctico del aula 6 HTML
+# css-aula07 - Ejercicio práctico del aula 7 css
 
 Para la marcación de toda la web se usó css grid conbinado con un poco de flex
 Se hicieron 5 secciones:
