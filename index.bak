@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/styles.css" type="text/css" rel="StyleSheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- div general PARTE 1 - SITIOS TURISTICOS EN MERIDA - VENEZUELA -->
+  <div id="div-ppal">
+    <div>
+      <h1 style="margin-left: 3%; color: rgb(138, 78, 0); font-weight:bold; font-family: Geneva;">
+        Mérida - Lugares turísticos</h1>
+      <!-- navegación -->
+      <nav style="margin-left: 75%; font-size: 120%;">
+        <a href="#div-inicio" style="color: rgb(244, 20, 20);">Inicio |</a>
+        <a href="#div-parte2" style="color: rgb(244, 20, 20);">Artículos |</a>
+        <a href="#div-info" style="color: rgb(244, 20, 20);">Información</a>
+      </nav>
+      <br />
+    </div>
+    <main>
+      <!-- imagen principal -->
+      <div id="div-inicio" style="align-content: center;">
+        <a href="https://www.flickr.com/photos/jsg2/41820747312" target="_blank"> <img height="378" width="1586"
+            src="images/PlazaDeTorosMeridaVenezuela.jpg" alt="Parque temático La Venezuela de Antier"
+            style="margin-left: 2.5%;;"></a>
+        <p style="font-size: 13px; width: 85%; text-align: center; color: rgb(148, 96, 24);"><a
+            href="https://www.flickr.com/photos/jsg2/41820747312" target="_blank"
+            style="color: rgb(249, 89, 89);"><strong><em>La
+                Venezuela de Antier</em></strong></a>
+          es el único parque temático dedicado a Venezuela. Fue creado por el merideño Alexis
+          Montilla, quien en esta ocasión quiso revivir, ya no un pueblo andino de los años 30, sino todo un país
+        </p>
+      </div>
+      <!-- reel de fotos -->
+      <div>
+        <section>
+          <figure>
+            <article>
+              <table>
+                <tr>
+                  <td>
+                    <a href="https://www.andes.net/observ/index.html" target="_blank"> <img height="270" width="470"
+                        src="images/ElObservatorioMeridaVenezuela.jpg" alt="El Observatorio - Merida - Venezuela" />
+                    </a>
+                    <p style="font-size: 10px; width: 77%; color: rgb(148, 96, 24);">
+                      <a href="https://www.andes.net/observ/index.html" target="_blank" ;
+                        style="color:rgb(244, 20, 20);"><strong><em>El Observatorio
+                            Astronómico Nacional de Llano del Hato1</em></strong></a>
+                      comúnmente referido como Astrofísico de Mérida es un
+                      observatorio astronómico ubicado en los predios de la población
+                      de Apartaderos del estado Mérida en Venezuela a una altura de
+                      3.600 msnm convirtiéndolo en uno de los observatorios enclavados
+                      a mayor altura del mundo. El observatorio es administrado por el
+                      Centro de Investigaciones de Astronomía quien es además, el ente
+                      encargado de realizar los estudios en el mismo.
+                    </p>
+                  </td>
+            </article>
+            <article>
+              <td>
+                <a href="https://www.misteriosodigital.com/2021/08/hotel-castillo-de-san-ignacio-merida.html"
+                  target="_blank">
+                  <img src="images/HotelElCastilloMeridaVenezuela.jpg" alt="Hotel El Castillo - Merida - Venezuela"
+                    style="height:270px; width:450px;">
+                </a>
+                <p style="font-size: 10px; width: 80%; color: rgb(148, 96, 24);">Según se conoce, el
+                  precursor original
+                  de <a href="https://www.misteriosodigital.com/2021/08/hotel-castillo-de-san-ignacio-merida.html"
+                    target="_blank" style="color:rgb(244, 20, 20);"><strong><em>El Castillo de San
+                        Ignacio</em></strong></a> fue el empresario Ignacio
+                  Castrogiovanni, quien según la historia dice que desde que era un niño soñaba con tener un castillo
+                  propio, así que puso en marcha lo que fue su sueño de la niñez, una vez que tenía las posibilidades
+                  económicas, sin embargo, no fue sino hasta el año 1990 que por manos de Lidio Piva se finalizó la
+                  construcción de la obra.
+                </p>
+              </td>
+            </article>
+            <article>
+              <td>
+                <a href="http://123reserva.com/hotel/hotel_la_trucha_azul" target="_blank">
+                  <img height="270" width="450" src="images/HotelLaTruchaAzulMeridaVenezuela.jpg"
+                    alt="Hotel Hirajara Barquisimeto - Venezuela.jpg"></a>
+                <p style="font-size: 10px; width: 90%; color: rgb(148, 96, 24);"><a
+                    href="http://123reserva.com/hotel/hotel_la_trucha_azul" target="_blank"
+                    style="color:rgb(244, 20, 20);"><strong><em>El Hotel La Trucha Azul</em></strong></a> fue construido
+                  con un elegante
+                  estilo colonial, en armonía con los paisajes andinos, con características muy especiales,
+                  considerando todos los factores que la rodean como el clima, la topografía, el ambiente y la cultura.
+                </p>
+              </td>
+            </article>
+            </tr>
+            </table>
+          </figure>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- div general PARTE 2 - OTROS SITIOS TURISTICOS DE VENEZUELA -->
+  <div id="div-parte2">
+    <div id="divTituloFlora">
+      <h3>F L O R A</h3>
+    </div>
+    <div id="columna1">
+      <img src="images/apium_graveolens.jpg" width="70" height="70" align="left" alt="apium graveolens">
+      <p style="padding-left: 20%;">Posee tallos estriados que forman una gruesa penca con hojas acuñadas. Toda la
+        planta tiene un fuerte sabor acre,
+        es decir, agrio.</p>
+    </div>
+    <div id="columna5">
+      <img src="images/Diplostephium_phylicoides.jpg" width="70" height="70" align="left"
+        alt="Diplostephium Phylicoides">
+      <p style="padding-left: 20%;"> El romerito de páramo (Linochilus phylicoides) es una especie de arbusto de la
+        familia Asteraceae, endémica de los páramos de Cundinamarca, Colombia.</p>
+    </div>
+    <div id="columna3">
+      <img src="images/aquifoliaceae_bercht.jpg" width="70" height="70" align="left" alt="Aquifoliaceae Bercht">
+      <p style="padding-left: 20%;">El género más conocido y numeroso, Ilex, popularmente llamados acebos, consta de
+        alrededor de 600 especies.</p>
+    </div>
+    <div id="divTituloFauna">
+      <h3>F A U N A</h3>
+    </div>
+    <div id="columna2">
+      <img src="images/OsoFrontino.jpg" width="70" height="70" align="left" alt="Oso Frontino">
+      <p style="padding-left: 20%;">El oso de anteojos (Tremarctos ornatus), oso andino, oso frontino,
+        , es una especie de mamífero de la familia Ursidae. Es la única especie viviente de su género.</p>
+    </div>
+    <!--  -->
+    <div id="columna4">
+      <img src="images/coati.jpg" width="70" height="70" align="left" alt="Daucus Carota: Flor Blanca de Zanahoria">
+      <p style="padding-left: 20%;">Se asemeja a los coatíes o zorros guaches comunes, aunque es de menor
+        tamaño; sus rasgos morfológicos más
+        distintivos incluyen su característico rostro alargado.</p>
+    </div>
+    <div id="columna6">
+      <img src="images/Condor.jpg" width="70" height="70" align="left">
+      <p style="padding-left: 20%;">En Venezuela se le creía extinto hasta que en 1976 un grupo de ornitólogos ingleses
+        avistó dos ejemplares adultos a
+        medio camino entre las poblaciones de Mérida y Jají .</p>
+    </div>
+    <div id="columna7">
+      <img src="images/colibriPicoespada.jpg" width="600" height="220">
+      <p style="padding-left: 20%;">Colibrí pico de espada, Ensifera ensifera, ave con pico increíblemente más largo.
+        Pico largo más largo que el cuerpo del colibrí.</p>
+    </div>
+  </div>
+
+  <!-- div general PARTE 3 - CREAR ASIDE CON LINKS DE INTERES -->
+  <div id="div-info">
+    <div id="div-tit-resena">
+      <h2>M E R I D A</h2>
+    </div>
+    <div id="div-resena">
+      <p>Fundada en 1558, Santiago de los Caballeros de Mérida es en la actualidad una hermosa ciudad
+        rodeada de
+        imponentes
+        montañas, con un centro colonial de singular belleza, vistosos parques de gran verdor y lo más resaltante, su
+        gente de
+        trato cordial, amable y hospitalario, que bien le hacen honor a su nombre.
+        <br><br>
+        El centro de la ciudad está rodeado por edificios coloniales de los cuales resaltan el Palacio Arzobispal, el
+        Palacio de
+        Gobierno, la sede de la Universidad de los Andes y la Catedral, definitivamente una de las más hermosas que hay
+        en
+        Venezuela.
+        <br><br>
+        Mérida es una ciudad estudiantil, contando con una de las universidades de mayor tradición del país y la segunda
+        en antigüedad. La Universidad de los Andes, mejor conocida como la ULA, ha sido el alma mater de célebres
+        personajes
+        tanto de la región como de la vida nacional.
+        <br><br>
+        La ciudad posee una diversidad de hermosas plazas, entre las que destacan, la Plaza Bolívar, que cuenta con el
+        busto más
+        antiguo del Libertador en el país y la Plaza Beethoven, en honor al gran compositor alemán
+        <br><br>
+        Se estima una población de 289.966 habitantes para el año 2018, representando el 27,04 % de la población total
+        del
+        estado, mientras que el área Metropolitana (Conurbación de los municipios Libertador, Campo Elías, Sucre y
+        Santos
+        Marquina) estima 508.988 habitantes, ocupando la décimo segunda posición entre las ciudades venezolanas más
+        pobladas y
+        la décima posición entre las áreas metropolitanas de acuerdo a su población.
+      </p>
+    </div>
+    <div id="div-tit-lexternals">
+      <h2>TEMAS RELACIONADOS</h2>
+    </div>
+    <div id="div-lexternals">
+      <ul id="ul-lexternals">
+        <li><a
+            href="https://es.wikipedia.org/wiki/M%C3%A9rida_(Venezuela)#:~:text=M%C3%A9rida%20foi%20fundada%20por%20Juan,de%20Santa%20F%C3%A9%20de%20Bogot%C3%A1."
+            target="_blank" style="color:rgb(136, 100, 1)">Historia
+            de Mérida</a></li>
+        <li><a href="https://www.andes.net/florafauna/fauna.html" target="_blank" style="color:rgb(136, 100, 1)">Fauna
+            de Mérida</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Centro_jard%C3%ADn_bot%C3%A1nico_de_M%C3%A9rida" target="_blank"
+            style="color:rgb(136, 100, 1)">Jardín botánico de
+            Mérida</a>
+        </li>
+        <li><a
+            href="https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1hCNyPscLIarrL7twObxJpDhx5nQ&ll=8.631260690121886%2C-71.26788149999999&z=9"
+            target="_blank" style="color:rgb(136, 100, 1)">Mapa
+            turístico de mérida</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="div-footer">
+    <footer></footer>
+    <h3>Web diseñada por José L. Freites</h3>
+    </footer>
+  </div>
+</body>
+
+</html>
