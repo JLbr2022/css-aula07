@@ -1,158 +1,290 @@
 * {
   margin: 0;
   padding: 0;
+  /* font-size: 16px; */
+  /* box-sizing: border-box; */
 }
 
-/* PRIMERA PARTE */
-#div-ppal {
-  background-color: rgb(248, 216, 193);
-  align-content: center;
+body {
+  background-color: #e9e5e4;
+  font-family: Arial, Helvetica, sans-serift;
+  /* text-align: center; */
 }
 
-/* SEGUNDA PARTE */
-#div-parte2 {
-  width: 1730px;
-  height: 350px;
-  background-color: hwb(40 1% 59%);
+/* NAVEGACION - PARTE SUPERIOR */
+#navegacion {
+  height: 60px;
+  display: grid;
+  align-items: center; /* CENTRA VERTICALMENTE ITEMS EN LAS CELDAS */
+  grid-template-columns: repeat(3, 1fr);
 }
 
-#divTituloFlora {
-  position: absolute;
-  padding-left: 2.5%;
-  top: 825px;
-  left: 160px;
-  color: rgb(255, 0, 0);
+#navegacion .menu {
+  grid-column: 3 / 3;
+  display: flex;
 }
 
-#divTituloFauna {
-  position: absolute;
-  padding-left: 2.5%;
-  top: 825px;
-  left: 640px;
-  color: rgb(255, 0, 0);
+.menu ul li {
+  margin-right: 2em;
 }
 
-#columna1 {
-  padding-left: 2.5%;
-  position: absolute;
-  top: 850px;
-  left: 0px;
-  width: 400px;
-  margin-top: 10px;
-  color: rgb(255, 244, 189);
+.menu li {
+  list-style: none;
 }
 
-#columna2 {
-  padding-left: 3%;
-  position: absolute;
-  top: 850px;
-  left: 450px;
-  width: 400px;
-  margin-top: 10px;
-  color: rgb(255, 244, 189);
+.menu a {
+  text-decoration: none;
 }
 
-#columna3 {
-  padding-left: 2.5%;
-  position: absolute;
-  top: 950px;
-  left: 0px;
-  width: 400px;
-  margin-top: 10px;
-  color: rgb(255, 244, 189);
+#imagenppal {
+  width: 100%;
+  height: 60vh;
+  padding: 2px;
+  background-image: url(/images/PlazaDeTorosMeridaVenezuela.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-#columna4 {
-  padding-left: 3%;
-  position: absolute;
-  top: 950px;
-  left: 450px;
-  width: 400px;
-  margin-top: 10px;
-  color: rgb(255, 244, 189);
+/* GRID PARA LOS ARTICULOS DE MAIN */
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 30em 30em 30em;
+  column-gap: 103px;
+  padding: 50px;
+  padding-bottom: 30px;
+  /* width: 90%; */
+  /* max-width: 1000px; */
 }
 
-#columna5 {
-  padding-left: 2.5%;
-  position: absolute;
-  top: 1050px;
-  left: 0px;
-  width: 400px;
-  margin-top: 10px;
-  color: rgb(255, 244, 189);
+/* INICIO SEGUNDA SECCION */
+.container2 {
+  /* width: 90%; */
+  max-width: 1650px;
+  background-color: #37201a;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  padding: 50px;
+  grid-template-columns: repeat(3, 530px);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "ecaja1 ecaja2 ecaja3"
+    "ecaja4 ecaja5 ecaja6"
+    "ecaja7 ecaja8 ecaja6"
+    "ecaja10 ecaja11 ecaja12";
 }
 
-#columna6 {
-  padding-left: 3%;
-  position: absolute;
-  top: 1050px;
-  left: 450px;
-  width: 400px;
-  margin-top: 10px;
-  color: rgb(255, 244, 189);
+.container2 .ecaja6 {
+  grid-area: ecaja6;
 }
-
-#columna7 {
-  position: absolute;
-  top: 850px;
-  left: 1040px;
-  width: 506px;
-  margin-top: 10px;
+/* .caja2 {
+  padding: 30px;
+  border: 4px solid black;
+  background-color: lightgray;
   text-align: center;
-  color: rgb(255, 244, 189);
-  /* background-color: #988400; */
-}
+} */
 
-/* TERCERA PARTE */
-#div-info {
-  position: absolute;
-  width: 1730px;
-  height: 350px;
-  background-color: hwb(39 0% 81%);
-  color: rgb(136, 100, 1);
-}
-
-#div-tit-resena {
-  position: absolute;
-  margin-left: 50px;
-  top: 20px;
-}
-
-#div-resena {
-  position: absolute;
-  margin-left: 50px;
-  margin-right: 500px;
-  margin-top: 60px;
-  margin-bottom: 0px;
-  text-align: justify;
-}
-
-#div-tit-lexternals {
-  position: absolute;
-  top: 10px;
-  left: 1280px;
-  width: 506px;
-  margin-top: 10px;
+/* CAJAS DE ARTICULOS MAS TEXTO */
+.container2 > div,
+.container2 .ecaja42-nested,
+.container2 .ecaja52-nested,
+.container2 .ecaja72-nested,
+.container2 .ecaja82-nested,
+.container2 .ecaja92-nested,
+.container2 .ecaja102-nested,
+.container2 .ecaja112-nested {
+  /* border: 4px solid black;
+  background-color: lightgray; */
+  color: #724941;
   text-align: left;
-  color: rgb(136, 100, 1);
+  padding-left: 1em;
+  /* padding: 5px; */
+  display: flex;
+  justify-content: left;
 }
 
-#div-lexternals {
-  position: absolute;
-  top: 50px;
-  left: 1300px;
-  width: 506px;
-  margin-top: 10px;
-  text-align: left;
-  color: rgb(255, 244, 189);
+/* CAJAS DE TITULOS */
+.container2 > .ecaja1,
+.ecaja2,
+.ecaja3 {
+  color: #856159;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-#div-footer {
-  position: absolute;
-  top: 1509px;
-  width: 1730px;
-  height: 20px;
+/* COLOR PARA EL FOOTER 
+#180E0C */
+
+/* 2da SECCION: CONFIGURACION DE LAS CAJAS DEL GRID 2 */
+/* .caja {
+  padding: 30px;
+  border: 4px solid black;
+  background-color: lightgray;
   text-align: center;
-  background-color: hwb(39 0% 87%);
-  color: rgb(114, 105, 72);
+  line-height: 150px;
+} */
+
+/* .container2 > .ecaja2 {
+  color: #856159;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  align-items: left;
+  justify-content: left;
 }
+
+.container2 > .ecaja3 {
+  color: #856159;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/*       ANIDANDO              */
+
+/* .ecaja4-nested {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 4em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+/* .ecaja42-nested {
+  color: #724941;
+  font-size: 16px;
+  padding-left: 1em;
+  display: flex;
+  align-items: left;
+} */
+
+/* .ecaja52-nested {
+  color: #724941;
+  font-size: 16px;
+  padding-left: 1em;
+  display: flex;
+  align-items: left;
+} */
+
+/* .ecaja5-nested {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 10em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* .ecaja6 {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-columns: 100px;
+  align-items: center;
+  gap: 4em;
+  padding: 1em;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+} */
+
+/* .ecaja7-nested {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 4em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* .ecaja8-nested {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 4em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* .ecaja9-nested {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 4em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* .ecaja10-nested {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 4em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* .ecaja11 {
+  color: #724941;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+/* grid-auto-columns: 100px; */
+/* align-items: center; */
+/* gap: 4em; */
+/* padding: 1em; */
+/* display: flex;
+  align-items: left;
+  justify-content: left;
+} */
+
+/* @media screen and (max-width: 768px) {
+  .container2 {
+    grid-template-areas:
+      "ecaja1 ecaja2 ecaja3"
+      "ecaja4 ecaja5 ecaja6"
+      "ecaja7 ecaja8 ecaja6"
+      "ecaja10 ecaja11 ecaja12";
+  }
+} */

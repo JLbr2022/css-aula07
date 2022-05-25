@@ -1,15 +1,31 @@
 # html-aula06 - Ejercicio práctico del aula 6 HTML
 
-## Primera parte:
+Para la marcación de toda la web se usó css grid conbinado con un poco de flex
+Se hicieron 5 secciones:
 
-- Se compone de una sección de navegación, una fotografía principal y un reel de 3 fotos de algunos sitios turísticos de Mérida - Venezuela
+- Header
+- Main: Foto principal + 3 artículos
+- Sección 2: Artículos de Flora y Fauna
+- Sección 3: Reseña + links relacionados
+- Footer
 
-- Tags utilizados: table, div, section, p, a, nav, figure
+## Por hacer:
 
-## Segunda parte:
+### Primera parte:
 
-- Se aplica código en CCS y se almacena en el archivo "estilos.ccs" para la mejor y amigable manipulación de la maquetación
+- Titulo (crear un grid para organizar mejor)
+- Navegación (crear un grid para organizar mejor)
+- Foto Principal
+- 3 Artículos (hacer que al disminuir tamaño de la pantalla se queden centrados)
 
-## Tercera parte:
+### Segunda parte:
 
-- Usé html y un poco de ccs para cuadrar párrafos y div
+- Se ve bien po ahora
+
+### Tercera parte:
+
+- Pendiente: Se hará un GRID conbinaddo con flex
+
+### Cuarta parte:
+
+- Pendiente: div para el footer
